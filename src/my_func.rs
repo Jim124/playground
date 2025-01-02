@@ -1,19 +1,18 @@
 /// Function:add_five
-/// 
+///
 /// # Arguments(num:u32)
-/// 
+///
 /// # Example
 /// ```
 /// let x = 5;
 /// let y = add_five(x);
 /// ```
-/// 
-
+///
 
 /**
  * this is a multiline block
- * 
- * 
+ *
+ *
  */
 pub fn add_five(num: u32) -> u32 {
     num + 5

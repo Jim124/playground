@@ -1,13 +1,13 @@
 /// Function:subtract_10
-/// 
+///
 /// # Argument(num:u32)
-/// 
+///
 /// # Example
-/// 
+///
 /// ```
 /// let x = 5;
 /// let y = subtract_10(x);
-/// 
+///
 /// ```
 
 pub fn subtract_10(num: u32) -> u32 {
