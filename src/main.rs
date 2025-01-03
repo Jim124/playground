@@ -3,10 +3,11 @@ mod m2_structs;
 mod m3_traits;
 mod m4_polymorphism;
 mod m5_lifetime;
-mod m6_matchs;
+mod m6_matches;
 mod m7_async;
 mod m8_handle_error;
 mod m9_collections;
+mod m10_decl_macros;
 mod my_func;
 mod other_funcs;
 use crate::my_func::add_five;
@@ -62,6 +63,8 @@ fn main() {
     // Raw string
     let text = r#"{"message":"Rust is awesome"}"#;
     println!("{}", text);
+    let my_vec = my_vec1!(1,2,3);
+    println!("{:?}",my_vec );
 }
 
 fn _test() {
